@@ -1,0 +1,46 @@
+.mentor-advisor {
+    margin-top: 0px;
+    background-color: rgb(190, 186, 182);
+    
+  }
+  
+  .mentor-advisor .row-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 25px;
+  }
+  
+  .mentor-advisor .feature {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .mentor-advisor-img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .mentor-advisor h3,
+  .mentor-advisor h2 {
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    line-height: 5.5px;
+    animation: fadeInUp 0.8s ease;
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

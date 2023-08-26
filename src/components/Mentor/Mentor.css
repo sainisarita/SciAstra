@@ -1,0 +1,43 @@
+.speaker {
+    margin-top: 0px;
+    background-image: url(../../assets/images/meetings-bg.jpg);
+  }
+  
+  .speaker .row-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 25px;
+  }
+  
+  .speaker .feature {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .speaker-img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .speaker h4 {
+    margin-top: 15px;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    line-height: 0;
+    color: white;
+  }
+  .speaker h2 {
+    margin-top: 15px;
+    font-size: 15px;
+    color: white;
+  }
+  .speaker .feature .speaker-img {
+    transition: transform 0.3s ease;
+  }
+  
+  .speaker .feature .speaker-img:hover {
+    transform: scale(1.1); /* Increase size by 10% on hover */
+  }

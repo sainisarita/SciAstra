@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/Header/Header';
+import MainBanner from './components/MainBanner/MainBanner';
+import Mentor from './components/Mentor/Mentor';
+import MentorAndAdvisor from './components/MentorAndAdvisor/MentorAndAdvisor';
+import University from './components/University/University';
+import { MentorList,MentorsData,UniversityList } from './components/Data/data';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+    return(
+        <>
+<Header/>
+<MainBanner/>
+<University UniversityList={UniversityList}/>
+<Mentor MentorList={MentorList}/>
+<MentorAndAdvisor MentorsData={MentorsData}/>
+
+</>
+    );
+
 }
 
-export default App;
+

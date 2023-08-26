@@ -1,0 +1,56 @@
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 0;
+    padding: 25px;
+  }
+  
+  .services .card {
+    background-image: url(../../assets/images/service-item-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    padding: 40px;
+    margin: 15px;
+    height: 200px;
+    width: 300px;
+    margin-left: 55px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .services .card:hover {
+    transform: scale(1.18); /* Increase size by 18% on hover */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .services .icon {
+    max-width: 60px;
+    margin: 0 auto;
+  }
+  
+  .services .card h4 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .services .card p {
+    color: #fff;
+    font-size: 13px;
+  }
+  
+  .services a {
+    text-decoration: none;
+  }
+  
